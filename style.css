@@ -125,7 +125,7 @@ a {
     }
 }
 
-@media (max-width: 600px) {
+@media (max-width: 600px) and (min-width: 388px) {
     .main-container {
         min-height: 500px;
     }
