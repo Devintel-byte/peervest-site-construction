@@ -1,3 +1,7 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;300;400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400;0,500;1,400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,200;0,400;1,200&display=swap');
+
 * {
     margin: 0;
     padding: 0;
@@ -56,27 +60,29 @@ section {
 @media (max-width: 1800px) {
     .main-container h1 {
         margin-bottom: 15px;
-        font-size: 90px;
+        font-size: 85px;
         padding: 5px 109px;
+    }
 }
 
 .main-container h2 {
-    margin-bottom: 35px;
+    margin-bottom: 20px;
     font-family: 'Lora', serif;
-    font-size: 35px;
+    font-size: 30px;
     color: rgb(248, 244, 0);
 }
 
 .main-container .paragraph {
-    padding: 25px 150px;
+    padding: 25px 280px;
     font-weight: lighter;
 }
 
 .main-container p {
     font-family: 'Mulish', sans-serif;
-    font-size: 20px;
+    font-size: 18px;
     font-weight: lighter;
-    margin-bottom: 50px;
+    margin-top: 2px;
+    margin-bottom: 30px;
 }
 
 .main-container a.button {
@@ -134,7 +140,7 @@ a {
     }
 }
 
-@media (max-width: 600px) and (min-width: 388px) {
+@media (max-width: 480px) {
     .main-container {
         min-height: 500px;
     }
